@@ -3,7 +3,7 @@ import 'dotenv/config'
 import aiRoute from './routes/aiRoutes.js'
 
 const app = express()
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3500
 
 app.use(express.json())
 // app.use("/api/ai", aiRoute)
