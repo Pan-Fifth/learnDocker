@@ -6,7 +6,7 @@ const app = express()
 const PORT = process.env.PORT
 
 app.use(express.json())
-app.use("/api/ai", aiRoute)
+// app.use("/api/ai", aiRoute)
 app.get("/home", (req, res) => {
     res.send(`
         <!DOCTYPE html>
