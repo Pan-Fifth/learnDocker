@@ -1,6 +1,6 @@
 import express from 'express'
 import 'dotenv/config'
-import aiRoute from './routes/aiRoutes.js'
+// import aiRoute from './routes/aiRoutes.js'
 
 const app = express()
 const PORT = process.env.PORT || 3500
